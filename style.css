@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1200px;
+    max-height: 500px;
+    border: 2px solid green;
+    margin: 0 auto;
+}
+.header{
+    max-width: 1200px;
+    max-height: 80px;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav li{
+    display: inline-block;
+    list-style-type: none;
+}
+.nav li a{
+    text-decoration: none;
+    padding-left: 25px;
+    font-size: 2em;
+}
+
+.nav li:hover{
+    background-color: brown;
+    opacity: 0.3;
+    transition: 2s;
+    border-radius: 2px;
+    
+}
